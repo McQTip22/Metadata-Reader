@@ -10,8 +10,6 @@ app.use(express.static(__dirname + '/views'));
 
 var upload = multer({ dest: '/api/uploads' });
 
-// var fileRoutes = require('./routes/files');
-
 //File upload with multer
 app.post('/api/uploads', upload.single('myFile'), (req, res, next) => {
 	const file = req.file;
