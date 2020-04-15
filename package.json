@@ -1,0 +1,18 @@
+{
+  "name": "metadata-reader",
+  "version": "1.0.0",
+  "description": "Upload a file and we will give you it's metadata.",
+  "main": "index.js",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.9.7",
+    "multer": "^1.4.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Brian McEwen <brian.t.mcewen@gmail.com> (http://www.brianmcewen.com)",
+  "license": "ISC"
+}
